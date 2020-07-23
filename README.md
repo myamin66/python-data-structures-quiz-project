@@ -16,5 +16,7 @@ please read the following instructions before you run  the project
 --------------------------------------------------------------------
 Github repository link:
 		https://github.com/myamin66/python-data-structures-quiz-project
+		
+		
 Youtube Description link:
-		..
+		https://www.youtube.com/watch?v=JmBNpzsPugQ
