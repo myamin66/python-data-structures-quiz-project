@@ -13,12 +13,12 @@ def get_word_defination(rawstring):#takes rawstring and returns a tuple
 
 
 
-fh = open("sales.csv","r")#reads 'sales.csv' file and it contains duplicate data
+fh = open("data.csv","r")#reads 'data.csv' file and it contains duplicate data
 wd_list = fh.readlines() 
 
-#writing into the salesSet.csv with no duplicate data
+#writing into the dataSet.csv with no duplicate data
 wd_set = set(wd_list)
-fh = open("salesSet.csv", "w")
+fh = open("dataSet.csv", "w")
 fh.writelines(wd_set)
 
 #creating dictionary
